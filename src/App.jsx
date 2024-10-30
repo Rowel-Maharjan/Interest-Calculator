@@ -31,7 +31,7 @@ function App() {
 
             <div className='flex gap-3 w-80 justify-between'><span>Time(in months): </span><input className='border border-slate-500  px-1 rounded-md outline-none' type='number' {...register("time", { required: true })} /></div>
 
-            <button className='bg-slate-200 cursor-pointer border border-black px-2 py-1 w-20 rounded-xl' type='submit'>Calculate</button>
+            <button className='bg-slate-200 cursor-pointer border border-black px-2 py-1 w-40 rounded-xl' type='submit'>Calculate</button>
           </div>
         </form>
 
