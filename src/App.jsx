@@ -27,7 +27,7 @@ function App() {
 
             <div className='flex gap-3 w-80 justify-between'><span>Principal: </span><input className='border border-slate-500 px-1 rounded-md outline-none' type='number' {...register("principal", { required: true })} /></div>
 
-            <div className='flex w-80 justify-between gap-3'><span>Rate: </span><input className='border border-slate-500  px-1 rounded-md outline-none' type='number' {...register("rate", { required: true })} /></div>
+            <div className='flex w-80 justify-between gap-3'><span>Rate: </span><input className='border border-slate-500  px-1 rounded-md outline-none' type='number' step="any" {...register("rate", { required: true })} /></div>
 
             <div className='flex gap-3 w-80 justify-between'><span>Time(in months): </span><input className='border border-slate-500  px-1 rounded-md outline-none' type='number' {...register("time", { required: true })} /></div>
 
